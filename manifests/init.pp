@@ -41,6 +41,7 @@ class openconnect(
   $cacerts = '',
   $servercert = '',
   $authgroup = undef,
+  $usergroup = undef,
   $proxy = '',
   $version = 'present',
 ) inherits openconnect::params {

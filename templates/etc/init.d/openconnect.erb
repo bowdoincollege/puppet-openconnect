@@ -42,6 +42,9 @@ start ()
         <% if @authgroup -%>
         --authgroup=<%= @authgroup %> \
         <% end -%>
+        <% if @usergroup -%>
+        --usergroup=<%= @usergroup %> \
+        <% end -%>
         <% unless @servercert.empty? -%>
         --servercert <%= @servercert -%> \
         <% end -%>
